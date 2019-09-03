@@ -24657,13 +24657,6 @@ div.ant-typography-edit-content {
     padding-left: 15px;
 }
 @media(max-width: 80vh){
-    .file-container{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-color: white;
-    }
-
     .decodefile-result-list{
         position:absolute;
         bottom:0;
