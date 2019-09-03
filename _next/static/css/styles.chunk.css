@@ -24659,6 +24659,27 @@ div.ant-typography-edit-content {
         position: absolute;
         background-color: white;
     }
+
+    .decodefile-result-list{
+        position:absolute;
+        bottom:0;
+        width:100%;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+    }
+}
+
+@media(min-width:80vh){
+    .decodefile-result-list{
+        position:absolute;
+        width: 30%;
+        right: 0;
+        top: 0;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+    }
 }
 
 .file-container{
@@ -24668,5 +24689,24 @@ div.ant-typography-edit-content {
     background-color: white;
     top:0;
 }
+
+.upload-container{
+    position: relative;
+}
+
+.upload{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.custom-upload-box{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%)
+}
+
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/
