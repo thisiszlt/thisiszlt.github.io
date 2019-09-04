@@ -6187,7 +6187,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\work\\javascript-barcode\\examples\\web\\react-custom\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\work\\ssr-demo\\.next");
       return error;
     }
   };
