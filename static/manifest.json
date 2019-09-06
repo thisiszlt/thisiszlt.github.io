@@ -1,5 +1,5 @@
 {
-  "short_name": "dbrjs",
+  "short_name": "dbrjs demo",
   "name": "dbrjs react Sample",
   "icons": [
     {
@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
